@@ -1,0 +1,27 @@
+list1 = []
+list2 = []
+l1=[]
+l2=[]
+n1 = int(input())
+for i in range(0,n1):
+    x = int(input())
+    list1.append(x)
+print("list1 = ", list1)
+for i in list1:
+    if i>0:
+        l1.append(i)
+    else:
+        continue
+print(l1)
+    
+n2 = int(input())
+for i in range(0,n2):
+    x = int(input())
+    list2.append(x)
+print("list2 = ", list2)
+for i in list2:
+    if i>0:
+        l2.append(i)
+    else:
+        continue
+print(l2)
